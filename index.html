@@ -32,7 +32,7 @@
 </head>
 <body>
 <!-- SMART -->
-	<script type="text/javascript">
+<!-- 	<script type="text/javascript">
 		sas.call("std", {
 			siteId:   88316,  //
 			pageId:   649970, // Página : Hotsites/brasilia_do_futuro
@@ -43,7 +43,7 @@
 	<noscript>
 		<a href="http://www5.smartadserver.com/ac?jump=1&nwid=1527&siteid=88316&pgname=brasilia_do_futuro&fmtid=34707&visit=m&tmstp=[timestamp]&out=nonrich" target="_blank">
 			<img src="http://www5.smartadserver.com/ac?out=nonrich&nwid=1527&siteid=88316&pgname=brasilia_do_futuro&fmtid=34707&visit=m&tmstp=[timestamp]" border="0" alt="" /></a>
-	</noscript>
+	</noscript> -->
 	<!-- FIM SMART -->
 
 
@@ -217,6 +217,24 @@ FB.api('/me',
 <!-- <div> <img id="photo"></img></div>
 <p>Bem vindo <b><tag id='first_name'></tag></b> esse é o novo hotsite.</p> -->
 
+<!-- ********************* Inicio Codigo Share Facebook ********************* -->
+				<a id="share-button" href="#" title="Facebook Share Button" rel="alternate"><img src="https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro2/master/images/Logo-FB.jpg" alt="Facebook Share Button" title="Facebook Share Button"></a>				
+
+					<script type="text/javascript">
+					$('#share-button').click(function(e){
+					  e.preventDefault();
+					  FB.ui({
+					    method: 'feed',
+					    name: 'Braslia do Futuro',
+					    link: ' http://fatoonline.com.br/conteudo/19491',
+					    picture: 'https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro/master/images/info-02.jpg',
+					    //picture: 'https://www.facebook.com/media/set/?set=a.163575310710349.1073741829.100011736428266&type=1&l=8a727ed688',
+					    // caption: 'Por que ingerir CSS na hora do lanche não engorda',
+					    description: 'Texto de compartilhamento'
+					  });
+					});
+					</script>
+<!-- ********************* Final Codigo Share Facebook ********************* -->
 
 
 				<p>Há pelo menos cinco anos Brasília deixou de ser apenas a capital do País onde abriga políticos de vários estados e a cidade do concurso público. Brasília se tornou uma região com grande poder na economia colaborativa. De acordo com estudo realizado pela Endeavor, Brasília foi eleita a quinta melhor cidade para empreender no Brasil: além de ter o terceiro maior PIB do país, a população local tem alto poder de compra e todos os processos analisados no ambiente regulatório são efetuados em prazos inferiores à média nacional.</p>
@@ -392,22 +410,6 @@ FB.api('/me',
 				<h3>Panteão da Pátria</h3>
 				<p>Na Praça dos Três Poderes, o Panteão da Pátria possui exposição inteiramente dedicada a Tancredo Neves, eleito presidente do Brasil em 1985 e também à heróis da pátria. Mais um projeto de Oscar Niemeyer, o monumento tem formato de pomba e possui acervo de artistas como Athos Bulcão e João Câmara. O local é aberto a visitas de terça a domingo, das 9h às 18h.</p>
 				
-				<a id="share-button" href="#" title="Facebook Share Button" rel="alternate"><img src="https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro2/master/images/Logo-FB.jpg" alt="Facebook Share Button" title="Facebook Share Button"></a>				
-
-					<script type="text/javascript">
-					$('#share-button').click(function(e){
-					  e.preventDefault();
-					  FB.ui({
-					    method: 'feed',
-					    name: 'Braslia do Futuro',
-					    link: ' http://fatoonline.com.br/conteudo/19491',
-					    picture: 'https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro/master/images/info-02.jpg',
-					    //picture: 'https://www.facebook.com/media/set/?set=a.163575310710349.1073741829.100011736428266&type=1&l=8a727ed688',
-					    // caption: 'Por que ingerir CSS na hora do lanche não engorda',
-					    description: 'Texto de compartilhamento'
-					  });
-					});
-					</script>
 				<div class="galleria">
 				</div>
 			</div>
